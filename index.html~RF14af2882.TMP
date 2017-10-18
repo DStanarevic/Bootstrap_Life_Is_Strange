@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <!-- Need the JQuery and Bootstrap CDN for Bootstrap to work.-->
+    <!-- The JQuery script has to be above the bootstrap link, you need it each time you use bootstrap.-->
+    <script src="https://code.jquery.com/jquery-3.2.1.js"
+            integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <link href="Content/site.css" rel="stylesheet" />
+	<meta charset="utf-8" />
+</head>
+<body>
+    <!--HEADER-->
+    <div class="page-header">
+        <h1 class="container"><img id="logoImg" src="Content/rsz_transparentlogo.png" /></h1>
+    </div>
+    <!--NAVBAR-->
+    <!--Bootstrap needs the static top in order to display the navbar.-->
+    <nav class="navbar navbar-default navbar-static-top" id="navvy">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Brand</a>
+                </div>
+                <!--The link that Daniel provided us with.It adds the internal links. -->
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#about">About the Game</a></li>
+                        <li><a href="#contact">Video Clips</a></li>
+                        <li><a href="#contact">Game Cheats</a></li>
+                        <li><a href="http://www.lifeisstrange.com/talk" target="_blank">Talk About It</a></li>
+                    </ul>
+                </div>
+            </div>
+    </nav>
+
+
+</body>
+</html>
